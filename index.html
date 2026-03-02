@@ -1,4 +1,56 @@
-<h1>TEST</h1>
-<h2>Mango Mango</h2>
-<p>subtitle</p>
-GG
+{% extends "base.html" %}
+
+{% block content %}
+<section class="intro">
+    <p>Op zoek naar een bassisschool, middelbare school of internaat in en rond Gent? Onze campussen hebben het voor jou.</p>
+</section>
+
+<section class="schools">
+    <h2>Don Bosco in regio Gent?</h2>
+    <ul>
+        <li>5 basisscholen</li>
+        <li>3 secundaire scholen</li>
+        <li>2 internaten</li>
+    </ul>
+</section>
+
+<section class="why">
+    <h2>Waarom kiezen voor een Don Bosco-school?</h2>
+    <p>Een school met Don Bosco als gids en tochtgenoot ... De kracht van opvoeding, daar geloven wij in.</p>
+</section>
+
+<section class="campuses">
+    <h2>Middelbare scholen</h2>
+
+    <div class="campus">
+        <h3>Don Bosco Sint-Denijs-Westrem</h3>
+        <p>School voor wetenschap, techniek en design</p>
+        <p>Kortrijksesteenweg 1025, 9051 Sint-Denijs-Westrem, Gent (België)</p>
+        <p>Tel: +32 (0)9 221 31 11</p>
+    </div>
+
+    <div class="campus">
+        <h3>Don Bosco Zwijnaarde DBZ</h3>
+        <p>School met zin</p>
+        <p>Grotesteenweg-Noord 113, 9052 Zwijnaarde, Gent (België)</p>
+        <p>Tel: +32 (0)9 221 46 48</p>
+    </div>
+
+    <div class="campus">
+        <h3>Don Bosco Sint-Pieters</h3>
+        <p>Wijs in Gent</p>
+        <p>Koning Albertlaan 70, 9000 Gent (België)</p>
+        <p>Tel: +32 (0)9 222 14 52</p>
+    </div>
+</section>
+
+<section class="internaten">
+    <h2>Internaten</h2>
+    <div class="campus">
+        <h3>Don Bosco Internaat Gent</h3>
+        <p>Kortrijksesteenweg 1025 – 9051 Sint-Denijs-Westrem</p>
+        <p>Tel: +32 (0)9 221 82 55</p>
+    </div>
+</section>
+
+{% endblock %}
