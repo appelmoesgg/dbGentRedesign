@@ -1,34 +1,8 @@
-/*body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f8f8f8;
-}*/
 
-header {
-    background: #0066cc;
+
+h1 {
     color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 0.9rem;
-}
-
-section {
-    margin: 20px;
-    padding: 10px;
-    background: white;
-    border-radius: 5px;
-}
-
-h2 {
-    color: #0055aa;
+    font-size: 40px;
 }
 
 .campus {
@@ -36,3 +10,17 @@ h2 {
     padding-top: 10px;
     margin-top: 10px;
 }
+
+div {
+}
+
+nav {
+    font-size: 21px;
+}
+
+svg {
+    color: white;
+}
+
+
+
