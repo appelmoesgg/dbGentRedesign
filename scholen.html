@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DB Gent</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
@@ -28,93 +28,64 @@
 
         <div class="ml-6 flex gap-6">
             <a href="#over" class="hover:text-red-500 transition-colors duration-300">Over</a>
-            <a href="scholen" class="hover:text-red-500 transition-colors duration-300">Scholen</a>
+            <a href="/scholen" class="hover:text-red-500 transition-colors duration-300">Scholen</a>
             <a href="#internaten" class="hover:text-red-500 transition-colors duration-300">Internaten</a>
         </div>
     </nav>
 
-    <div class="ml-10 p-5 rounded-lg text-white">
+    <div class="ml-20 p-5 rounded-lg text-white flex flex-col">
 
         <div class="scroll-mt-40" id="home">
-            <h1 class="text-red-700  font-bold ml-9 -mb-1 leading-none">Don Bosco Gent</h1>
-            <h4 class="text-red-700  font-bold ml-10 mb-13 leading-none">heeft een hart voor <span id="ondertitel-typing"></span></h4>
+            <h1 class="text-red-700  font-bold -mb-1 leading-none">Onze scholen</h1>
+            <h4 class="text-red-700  font-bold ml-4 mb-13 leading-none">in <span id="ondertitel-typing"></span></h4>
         </div>
 
-        <div class="m-10">
+        <div class="mb-4">
             <p>Op zoek naar een <strong>bassisschool, middelbare school of internaat</strong> in en rond Gent?</p>
             <p>Onze campussen hebben het voor jou. Kom je een kijkje nemen?</p>
         </div>
 
-        <div class="ml-10 scroll-mt-24 font-bold" id="over">
-            <h2>Don Bosco in regio Gent?</h2>
-            <h3><strong>Dat zijn:</strong></h3>
-        </div>
-        <div class="ml-10 scroll-mt-24 ">
-            <ul>
-                <li>5 basisscholen</li>
-                <li>3 secundaire scholen</li>
-                <li>2 internaten</li>
-            </ul>
+        <div class="mt-10 scroll-mt-24" id="scholen">
+            <h2 class="font-bold">Scholen</h2>
         </div>
 
-        <div class="ml-10 mt-10 scroll-mt-24  font-bold">
-            <h2>Waarom kiezen voor een Don Bosco-school?</h2>
-            <h3><strong>Een school met Don Bosco als GIDS en TOCHTGENOOT</strong></h3>
-        </div>
-        <div class="ml-10 scroll-mt-24 ">
-            <p>De kracht van opvoeding, daar geloven wij in. We geven jou het vertrouwen om te groeien naar vrijheid,
-                verantwoordelijkheid en verbondenheid. Vreugde en spel, geloof, groei en hoop zijn onze pijlers. Dankzij
-                de nabijheid van onze opvoeders is er ruimte voor dialoog waarin engagement, respect en structuur
-                centraal staan.</p>
-        </div>
-
-        <div class="ml-10 mt-10 scroll-mt-24  font-bold" id="scholen">
-            <h2>Middelbare scholen</h2>
-        </div>
-        <div class="ml-10 ">
+        <div class="flex flex-row gap-4 break-before-all" id="scholen">
             <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
-                <h3>Don Bosco Sint-Denijs-Westrem</h3>
+                <h3 class="font-bold text-lg">Don Bosco Sint-Denijs-Westrem</h3>
                 <p>School voor wetenschap, techniek en design</p>
                 <p>Kortrijksesteenweg 1025, 9051 Sint-Denijs-Westrem, Gent (België)</p>
                 <p>Tel: +32 (0)9 221 31 11</p>
             </div>
 
             <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
-                <h3>Don Bosco Zwijnaarde DBZ</h3>
+                <h3 class="font-bold text-lg">Don Bosco Zwijnaarde DBZ</h3>
                 <p>School met zin</p>
                 <p>Grotesteenweg-Noord 113, 9052 Zwijnaarde, Gent (België)</p>
                 <p>Tel: +32 (0)9 221 46 48</p>
             </div>
 
             <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
-                <h3>Don Bosco Sint-Pieters</h3>
+                <h3 class="font-bold text-lg">Don Bosco Sint-Pieters</h3>
                 <p>Wijs in Gent</p>
                 <p>Koning Albertlaan 70, 9000 Gent (België)</p>
                 <p>Tel: +32 (0)9 222 14 52</p>
             </div>
         </div>
 
-        <div class="ml-10 mt-10 scroll-mt-24  font-bold" id="internaten">
-            <h2>Internaten</h2>
+        <div class="mt-10 scroll-mt-24" id="internaten">
+            <h2 class="font-bold">Internaten</h2>
         </div>
-        <div class="ml-10">
-            <h3>Don Bosco Internaat Gent</h3>
+
+        <div>
+            <h3 class="font-bold text-lg">Don Bosco Internaat Gent</h3>
             <p>Kortrijksesteenweg 1025 – 9051 Sint-Denijs-Westrem</p>
             <p>Tel: +32 (0)9 221 82 55</p>
         </div>
 
-        <div class="ml-10 mt-10  font-bold">
-            <h2>Schoolbestuur</h2>
-        </div>
-        <div class="ml-10 ">
-            <p>Ons schoolbestuur is het 
-            <a href="https://www.dboc.be/" class="hover:text-red-500 transition-colors duration-300 text-inherit"><strong>Don Bosco Onderwijscentrum (DBOC)</strong></a>
-            </p>
-        </div>
-
     </div>
-    <footer class="text-center text-white bg-gray-800 border-red-600 border-t-2 p-5">
-        <div class="space-y-4">
+
+    <footer class="text-center text-white bg-gray-800 border-red-600 border-t-2 p-4">
+        <div class="">
             <a href="https://yt.be/WEwjeo50" class="hover:text-red-500 transition-colors duration-300 text-inherit">
                 <p>Website gemaakt door 5D-ICW</p>
                 <p>© 2026 Inc. All Rights Reserved.</p>
@@ -125,7 +96,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             Typify('#ondertitel-typing', {
-                text: [' leerlingen.', ' leerkrachten.', ' jou.'],
+                text: [' Gent.', ' Zwijnaarde.', ' Sint Denijs Westrem.'],
                 delay: 100,
                 loop: true,
                 cursor: true,
