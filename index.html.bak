@@ -27,9 +27,9 @@
 
 
         <div class="ml-6 flex gap-6">
-            <a href="/over" class="hover:text-red-500 transition-colors duration-300">Over</a>
-            <a href="/scholen" class="hover:text-red-500 transition-colors duration-300">Scholen</a>
-            <a href="/scholen#internaten" class="hover:text-red-500 transition-colors duration-300">Internaten</a>
+            <a href="#over" class="hover:text-red-500 transition-colors duration-300">Over</a>
+            <a href="scholen" class="hover:text-red-500 transition-colors duration-300">Scholen</a>
+            <a href="#internaten" class="hover:text-red-500 transition-colors duration-300">Internaten</a>
         </div>
     </nav>
 
@@ -37,7 +37,7 @@
 
         <div class="scroll-mt-40" id="home">
             <h1 class="text-red-700  font-bold ml-9 -mb-1 leading-none">Don Bosco Gent</h1>
-            <h4 class="text-red-700  font-bold ml-10 mb-13 leading-none">rape or get raped <span id="ondertitel-typing"></span></h4>
+            <h4 class="text-red-700  font-bold ml-10 mb-13 leading-none">heeft een hart voor <span id="ondertitel-typing"></span></h4>
         </div>
 
         <div class="m-10">
@@ -67,9 +67,53 @@
                 de nabijheid van onze opvoeders is er ruimte voor dialoog waarin engagement, respect en structuur
                 centraal staan.</p>
         </div>
-        
+
+        <div class="ml-10 mt-10 scroll-mt-24  font-bold" id="scholen">
+            <h2>Middelbare scholen</h2>
+        </div>
+        <div class="ml-10 ">
+            <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
+                <h3>Don Bosco Sint-Denijs-Westrem</h3>
+                <p>School voor wetenschap, techniek en design</p>
+                <p>Kortrijksesteenweg 1025, 9051 Sint-Denijs-Westrem, Gent (België)</p>
+                <p>Tel: +32 (0)9 221 31 11</p>
+            </div>
+
+            <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
+                <h3>Don Bosco Zwijnaarde DBZ</h3>
+                <p>School met zin</p>
+                <p>Grotesteenweg-Noord 113, 9052 Zwijnaarde, Gent (België)</p>
+                <p>Tel: +32 (0)9 221 46 48</p>
+            </div>
+
+            <div class="border-t-2 border-gray-300 pt-2 mt-2 ">
+                <h3>Don Bosco Sint-Pieters</h3>
+                <p>Wijs in Gent</p>
+                <p>Koning Albertlaan 70, 9000 Gent (België)</p>
+                <p>Tel: +32 (0)9 222 14 52</p>
+            </div>
+        </div>
+
+        <div class="ml-10 mt-10 scroll-mt-24  font-bold" id="internaten">
+            <h2>Internaten</h2>
+        </div>
+        <div class="ml-10">
+            <h3>Don Bosco Internaat Gent</h3>
+            <p>Kortrijksesteenweg 1025 – 9051 Sint-Denijs-Westrem</p>
+            <p>Tel: +32 (0)9 221 82 55</p>
+        </div>
+
+        <div class="ml-10 mt-10  font-bold">
+            <h2>Schoolbestuur</h2>
+        </div>
+        <div class="ml-10 ">
+            <p>Ons schoolbestuur is het 
+            <a href="https://www.dboc.be/" class="hover:text-red-500 transition-colors duration-300 text-inherit"><strong>Don Bosco Onderwijscentrum (DBOC)</strong></a>
+            </p>
+        </div>
+
     </div>
-    <footer class="text-center text-white bg-gray-800 border-red-600 border-t-2 mt-2 p-5">
+    <footer class="text-center text-white bg-gray-800 border-red-600 border-t-2 p-5">
         <div class="space-y-4">
             <a href="https://yt.be/WEwjeo50" class="hover:text-red-500 transition-colors duration-300 text-inherit">
                 <p>Website gemaakt door 5D-ICW</p>
@@ -77,6 +121,18 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            Typify('#ondertitel-typing', {
+                text: [' leerlingen.', ' leerkrachten.', ' jou.'],
+                delay: 100,
+                loop: true,
+                cursor: true,
+                stringDelay: 1000
+            });
+        });
+    </script>
 </body>
 
 </html>
