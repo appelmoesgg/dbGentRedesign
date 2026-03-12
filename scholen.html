@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
 </head>
 
-<body class="bg-gray-900 font-sans animation-spin">
+<body class="bg-gray-900 font-sans overflow-x-hidden">
     <nav class="bg-gray-800 text-white p-4 w-full top-0 border-red-600 border-b-2 flex items-center sticky z-10">
         <!-- Logo -->
         <a href="/" class="text-white hover:text-red-500 transition-colors duration-300">
@@ -26,18 +26,17 @@
 
 
 
-        <div class="ml-6 flex gap-6">
+        <div class="ml-6 flex gap-6 text-xl">
             <a href="/over" class="hover:text-red-500 transition-colors duration-300">Over</a>
             <a href="/scholen" class="hover:text-red-500 transition-colors duration-300">Scholen</a>
             <a href="/scholen#internaten" class="hover:text-red-500 transition-colors duration-300">Internaten</a>
         </div>
     </nav>
 
-    <div class="ml-20 p-5 rounded-lg text-white flex flex-col">
-
+    <div class="md:ml-10 p-5 rounded-lg text-white flex flex-col md:scale-105 md:mt-12">
         <div class="scroll-mt-40" id="home">
-            <h1 class="text-red-700  font-bold -mb-1 leading-none">Onze scholen</h1>
-            <h4 class="text-red-700  font-bold ml-12 mb-13 leading-none">in <span id="ondertitel-typing"></span></h4>
+            <h1 class="text-red-700  font-bold -mb-1 text-7xl">Onze scholen</h1>
+            <h4 class="text-red-700  font-bold ml-12 mb-13 text-xl">in <span id="ondertitel-typing"></span></h4>
         </div>
 
         <div class="mb-4">
@@ -46,10 +45,10 @@
         </div>
 
         <div class="mt-10 scroll-mt-24" id="scholen">
-            <h2 class="font-bold">Secundaire scholen</h2>
+            <h2 class="font-bold text-4xl">Secundaire scholen</h2>
         </div>
 
-        <div class="flex flex-col gap-4 -ml-1">
+        <div class="flex flex-col gap-4 -ml-1 w-10/12">
             <a href="https://www.donboscosdw.be/" class="">
                 <div
                     class="bg-gray-800 border-2 border-gray-950 p-2 mt-1 rounded-lg hover:rounded-2xl transition-all duration-300">
@@ -82,14 +81,13 @@
         </div>
 
         <div class="mt-10 scroll-mt-24" id="internaten">
-            <h2 class="font-bold">Internaten</h2>
+            <h2 class="font-bold text-4xl text-red-">Internaten</h2>
         </div>
         <a href="https://www.db-internaatgent.be/" class="-ml-1 mt-1 bg-gray-800 border-2 border-gray-950 p-2 rounded-lg hover:rounded-2xl transition-all duration-300 hover:saturate-150 hover:drop-shadow-2xl">
             <h3 class="font-bold text-lg">Don Bosco Internaat Gent</h3>
             <p>Kortrijksesteenweg 1025 – 9051 Sint-Denijs-Westrem</p>
             <p>Tel: +32 (0)9 221 82 55</p>
         </a>
-        </div>
     </div>
 
     <footer class="text-center text-white bg-gray-800 border-red-600 border-t-2 p-4">
