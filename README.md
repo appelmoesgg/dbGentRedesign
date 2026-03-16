@@ -51,12 +51,3 @@ Hier kan je enkele screenshots toevoegen van de website:
 
 ![Scholenpagina](images/screenshot-scholen.png)  
 *Overzicht van secundaire scholen* 🎓
-
----
-
-## 🚀 Installatie / Lokale Preview
-Om de website lokaal te bekijken:
-
-1. Clone de repository:
-```bash
-git clone https://github.com/jouw-gebruikersnaam/donbosco-gent.git
