@@ -12,7 +12,7 @@ De website van **Don Bosco Gent** is ontworpen om:
 - Belangrijke schoolinformatie en nieuws te delen 📰
 - Online inschrijvingen en evenementen toegankelijk te maken 📅
 
-🔗 **Website live:** [donbosco-gent.be](https://donbosco-gent.be/)
+🔗 **Website:** [donbosco-gent.be](https://donbosco-gent.be/)
 
 ---
 
