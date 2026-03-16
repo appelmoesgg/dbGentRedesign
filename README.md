@@ -17,14 +17,14 @@ De website van **Don Bosco Gent** is ontworpen om:
 ---
 
 ## 🛠 Technologieën
-Deze website is gebouwd met moderne webtechnologieën:
+Deze website is gebouwd met volgende webtechnologieën:
 
 | Technologie | Functie |
 |------------|---------|
-| 🌐 **HTML5** | Structuur van de pagina’s |
-| 🎨 **CSS3 / SCSS** | Styling en layout |
-| ⚡ **JavaScript** | Interactiviteit en dynamische elementen |
-| 🖼 **Afbeeldingen / media** | Visuele content en illustraties |
+| 🌐 **HTML** | Structuur van de pagina’s |
+| 🎨 **CSS/tailwind** | Styling en layout |
+| ⚡ **JavaScript** | dynamische elementen |
+| 🖼 **Afbeeldingen** | Visuele content |
 
 ---
 
