@@ -30,3 +30,33 @@ Deze website is gebouwd met volgende webtechnologieën:
 
 ## 📂 Structuur van de Code
 De belangrijkste mappen en bestanden:
+
+
+---
+
+## 🖌 Functies & Features
+- 📚 Overzicht van alle scholen en opleidingen  
+- 📝 Contactformulieren voor ouders en leerlingen  
+- 📅 Evenementenkalender en nieuwssectie  
+- 🌟 Responsive design, werkt op mobiel, tablet en desktop  
+- 🔍 Zoekfunctie binnen de website
+
+---
+
+## 🖼 Screenshots
+Hier kan je enkele screenshots toevoegen van de website:  
+
+![Homepage](images/screenshot-homepage.png)  
+*Homepage van Don Bosco Gent* 🏫  
+
+![Scholenpagina](images/screenshot-scholen.png)  
+*Overzicht van secundaire scholen* 🎓
+
+---
+
+## 🚀 Installatie / Lokale Preview
+Om de website lokaal te bekijken:
+
+1. Clone de repository:
+```bash
+git clone https://github.com/jouw-gebruikersnaam/donbosco-gent.git
