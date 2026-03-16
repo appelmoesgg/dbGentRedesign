@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DB Gent</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="/static/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/typify.js@1.1.9/dist/typify.min.js"></script>
 </head>
 
-<body class="bg-[url(testpic.jpg)] backdrop-blur-md backdrop-brightness-50 font-sans min-h-screen flex flex-col overflow-hidden">
+<body class="bg-[url(/static/img/background.jpg)] backdrop-blur-md backdrop-brightness-50 font-sans min-h-screen flex flex-col overflow-hidden">
     
     <div class=" p-5 rounded-xl
-     flex grow justify-center items-center text-white text-center">
+     flex grow justify-center items-center text-white text-center md:scale-100 scale-95">
         <div class="scroll-mt-40 p-10 rounded-sm bg-black/60" id="home">
             <h2 class="text-red-700  font-bold  -mb-2 leading-none text-2xl">Welkom bij</h2>
             <h1 class="text-red-700  font-bold leading-none text-7xl">Don Bosco Gent</h1>
-            <h2 class="text-red-700  font-bold mb-12 leading-none text-2xl">Wij hebben een hart voor <span id="ondertitel-typing"></span></h2>
+            <h2 class="text-red-700  font-bold mb-12 leading-none text-2xl">Wij hebben een hart voor <br class="md:hidden"><span id="ondertitel-typing"></span></h2>
             <a href="scholen" class="p-4 bg-red-700 rounded-lg hover:rounded-2xl hover:bg-red-600 transition-all duration-300">Bekijk onze scholen</a>
         </div>
     </div>
