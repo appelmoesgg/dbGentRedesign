@@ -44,16 +44,29 @@
 
     </nav>
 
-    <!-- todo: fix bg blur + bg brightness-->
-    <div class="-mt-25 bg-[url(/static/img/background.jpg)] min-h-screen bg-no-repeat bg-center absolute inset-0 backdrop-blur-md backdrop-brightness-50 text-center">
-        <h1 class="text-white text-5xl md:text-7xl text-center mt-90 font-extrabold ">Welkom bij Don Bosco Gent.</h1>
-        <p class="text-white text-lg md:text-2xl text-center pt-4 font-bold">Uit Don Bosco's droom geboren.</p>
-        <a href="/index#scholen" class="group text-white text-lg md:text-2xl text-center font-bold mt-70 inline-block">Toon meer
-            <svg class="w-12 mx-auto -mt-2 fill-white group-hover:fill-red-500 group-hover:translate-y-1 transition-all duration-300" viewBox="0 0 24 24">
-                <path d="M12 16l-6-6h12z"/>
-            </svg>
-        </a>
-    </div>
+    <div class="-mt-25 bg-[url(/static/img/background.jpg)] min-h-screen bg-no-repeat bg-center absolute inset-0 text-center">
+
+    <!-- blur + brightness overlay -->
+    <div class="absolute inset-0 backdrop-blur-md backdrop-brightness-50"></div>
+
+    <h1 class="relative text-white text-5xl md:text-7xl text-center mt-90 font-extrabold">
+        Welkom bij Don Bosco Gent.
+    </h1>
+
+    <p class="relative text-white text-lg md:text-2xl text-center pt-4 font-bold">
+        Uit Don Bosco's droom geboren.
+    </p>
+
+    <a href="/index#scholen"
+       class="relative group text-white text-lg md:text-2xl text-center font-bold mt-70 inline-block">
+        Toon meer
+        <svg class="w-12 mx-auto -mt-2 fill-white group-hover:fill-red-500 group-hover:translate-y-1 transition-all duration-300"
+             viewBox="0 0 24 24">
+            <path d="M12 16l-6-6h12z"/>
+        </svg>
+    </a>
+
+</div>
 
     <div class="md:ml-10 p-5 rounded-lg text-black md:mt-6">
 
@@ -76,7 +89,7 @@
             <h2 class="font-bold text-4xl text-red-500">Lagere scholen</h2>
         </div>
 
-        <div class="md:ml-10 mt-2 grid md:grid-cols-3 gap-4 w-10/12">
+        <div class="md:ml-10 mt-2 grid md:grid-cols-2 gap-4 w-10/12">
             <a target="_blank" href="https://www.sintpieters.be/" class="">
                 <div
                     class="border-2 border-red-700/60 p-2 rounded-lg hover:rounded-2xl transition-all duration-300 hover:saturate-150 hover:drop-shadow-2xl">
@@ -167,13 +180,21 @@
             <h2 class="font-bold text-4xl text-red-500">Internaten</h2>
         </div>
 
-        <div class="md:ml-10 mt-2 grid grid-cols-1 gap-4 w-10/12">
+        <div class="md:ml-10 mt-2 grid md:grid-cols-2 gap-4 w-10/12">
             <a target="_blank" href="https://www.db-internaatgent.be/">
                 <div
                     class="mb- border-2 border-red-700/60 p-2 rounded-lg hover:rounded-2xl transition-all duration-300 hover:saturate-150 hover:drop-shadow-2xl">
                     <h3 class="font-bold text-lg">Don Bosco Internaat Gent</h3>
                     <p><iconify-icon icon="mdi:map-marker"></iconify-icon>Kortrijksesteenweg 1025 – 9051 Sint-Denijs-Westrem</p>
                     <p>Tel: +32 (0)9 221 82 55</p>
+                </div>
+            </a>
+            <a target="_blank" href="https://www.dbsp.gent">
+                <div
+                    class="mb- border-2 border-red-700/60 p-2 rounded-lg hover:rounded-2xl transition-all duration-300 hover:saturate-150 hover:drop-shadow-2xl">
+                    <h3 class="font-bold text-lg">Don Bosco Sint-Pieters internaat</h3>
+                    <p><iconify-icon icon="mdi:map-marker"></iconify-icon>Koning Albertlaan 70 - 9000 Gent</p>
+                    <p>Tel: 0487 88 86 99</p>
                 </div>
             </a>
         </div>
