@@ -1,4 +1,4 @@
-UX-nota: Huisstijl website Don Bosco Gent
+**UX-nota: Huisstijl website Don Bosco Gent**
 
 De website van Don Bosco Gent heeft een duidelijke en functionele huisstijl.
 Deze stijl past goed bij de manier waarop de organisatie werkt en haar doelstellingen nastreeft.
